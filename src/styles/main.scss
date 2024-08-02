@@ -131,12 +131,11 @@ h3 {
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    width: 358px;
+    width: 90%;
     height: 63px;
     top: 16px;
     left: 16px;
     margin-bottom: 30px;
-    margin-left: 10px;
 
 }
 
@@ -160,26 +159,24 @@ h3 {
     background-color: $primary-color; /*botão de pause verde*/
     color: black;
     display: flex;
-    padding: 23px;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 13px;
     border-radius: 30px;
     width: 56px;
     height: 56px;
-    left: 302px;
-    margin-left: 10px;
+    
 }
+
 
 .icon-listeners { /*três pontos*/
     color: $text-color;
     width: 17px;
     height: 17px;
     opacity: 60%;
-
 }
 
-
-
 .button-following {
-    border-color: $text-color-white; /*cor da borda*/
     border-radius: 20px;
     border: 1px;
     color: $text-color-white;
@@ -187,7 +184,8 @@ h3 {
     height: 35px;
     padding: 10px, 12px, 10px, 12px;
     gap: 10px;
-    background-color: black;
+    background-color: transparent;
+    border: 1px solid #fff; /*cor da borda*/
     margin-right: 20px;
 }
 
